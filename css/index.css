@@ -17,6 +17,7 @@ html, body {
     width: 90%;
     margin: 0 auto;
     height: 100%;
+    position: relative;
 }
 
 #nav-bar {
@@ -24,6 +25,7 @@ html, body {
     background: #393939;
     width: 100%;
     position: fixed;
+    z-index: +1;
 }
 
 #nav-bar a {
@@ -78,6 +80,7 @@ html, body {
     background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%), url("../assets/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 1000px;
 }
 
 #heading div {
@@ -110,6 +113,39 @@ html, body {
 #heading div a:hover {
     background: #4b74ff;
     transition: ease-in-out .3s;
+}
+
+/* Footer */
+footer {
+    background: #dcdcdc;
+    border: 10px solid #fff;
+    border-radius: 20px;
+}
+
+footer ul {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    list-style: none;
+    top: 0;
+}
+
+footer ul li {
+    padding: 2px;
+}
+
+footer a {
+    color: #495aff;
+    text-decoration: none;
+}
+
+footer p {
+    padding-bottom: 10px;
+}
+
+footer p.naar-boven {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 
