@@ -1,0 +1,115 @@
+/* Algemeen */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#nav-bar {
+    height: 50px;
+    background: #393939;
+    width: 100%;
+    position: fixed;
+}
+
+#nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+#nav-bar a.nav-link{
+    display: inline-block;
+    text-align: center;
+    border: none;
+    height: 47px;
+    padding: 0 20px;
+    margin: 0;
+    line-height: 50px;
+    background: #393939;
+    color: #fff;
+}
+
+#nav-bar a.active {
+    border-bottom: 3px solid #4b74ff;
+}
+
+#nav-bar a.nav-link:hover {
+    border-bottom: 3px solid #5896ff;
+}
+
+/* spacer omdat nav static is */
+#spacer {
+    height: 80px;
+    width: 100%;
+    display: block;
+}
+
+#warning {
+    height: 30px;
+    background: #ff3253;
+}
+
+#warning p {
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+/* heading */
+#heading {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%), url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading div {
+    position: relative;
+    width: 50%;
+    height: 60%;
+    top: 20%;
+    left: 25%;
+    color: #fff;
+}
+
+#heading div h1 {
+    font-size: 2em;
+}
+
+#heading div a {
+    display: inline-block;
+    padding: 15px 20px;
+    background: rgba(0,0,0,.5);
+    border: 3px solid #4b74ff;
+    border-radius: 27px;
+    color: #fff;
+    text-decoration: none;
+    margin: 50px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#heading div a:hover {
+    background: #4b74ff;
+    transition: ease-in-out .3s;
+}
+
+
