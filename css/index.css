@@ -253,7 +253,41 @@ footer p.naar-boven {
         border-bottom: 3px solid #4b74ff;
     }
 
+    #nav-bar.unfolded a#dropdownButton:hover {
+        border-bottom: 3px solid #4b74ff;
+    }
+
+    #nav-bar a#dropdownButton:hover {
+        border-bottom: 3px solid #393939;
+    }
+
+    #heading article {
+        width: 90%;
+        height: 80%;
+        top: 10%;
+        left: 5%;
+    }
+
     #mid .container .artikel {
         width: calc(100% - 10px);
     }
+
+    footer .container ul {
+        display: block;
+    }
+
+    footer .container ul li {
+        display: inline-block;
+        width: calc(33% - 5px);
+        text-align: center;
+    }
+
+    footer .container p {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
 }
