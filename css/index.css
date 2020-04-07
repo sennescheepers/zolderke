@@ -281,6 +281,11 @@ footer p.naar-boven {
         left: 5%;
     }
 
+    #mid .container h1 {
+        width: 100%;
+        text-align: center;
+    }
+
     #mid .container .artikel {
         width: calc(100% - 10px);
     }
@@ -301,10 +306,13 @@ footer p.naar-boven {
 
     footer .container p {
         display: block;
+        text-align: center;
+    }
+
+    footer .container p.naar-boven {
         position: relative;
         top: 0;
         left: 0;
-        text-align: center;
     }
 
 }

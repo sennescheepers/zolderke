@@ -142,83 +142,141 @@ html, body {
     padding: 20px 5px 20px 5px;
 }
 
-/* Info */
-#info {
+/* informatie */
+#informatie {
+    margin: 20px 0;
     width: 100%;
 }
 
-#info:after {
+#informatie:after {
     content: "";
     clear: both;
     display: block;
 }
 
-#info .container h1 {
-    padding: 20px 0 20px 20px;
-    font-size: 2em;
-}
-
-#info .container img {
-    margin-left: 20px;
+#informatie .container article {
     float: left;
-    width: calc(40% - 20px);
-    border-radius: 5px;
-}
-
-#info .container p {
-    margin: 20px 20px 20px 20px;
-    float: right;
-    width: calc(60% - 80px);
-}
-
-/* Medewerkers */
-#medewerkers {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#medewerkers:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-#medewerkers h1 {
-    font-size: 2em;
-    margin: 20px 0 20px 20px;
-}
-
-#medewerkers .container .medewerker {
-    display: inline-block;
-    width: calc(100% / 4);
-    float: left;
-}
-
-#medewerkers .container .medewerker img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    padding: 10px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-#medewerkers .container .medewerker .beschrijving {
-    width: 300px;
-    padding: 90px 10px 10px 10px;
-    background: #dcdcdc;
-    margin: -85px auto 0;
-    border-radius: 15px;
+    width: calc(100% / 3);
     text-align: center;
-    -webkit-box-shadow: 1px 1px 10px 0px rgba(54,54,54,0.6);
-    -moz-box-shadow: 1px 1px 10px 0px rgba(54,54,54,0.6);
-    box-shadow: 1px 1px 10px 0px rgba(54,54,54,0.6);
 }
 
-#medewerkers .container .medewerker .beschrijving h4 {
+#informatie .container article:nth-child(2) {
+    width: calc(100% / 3 - 2px);
+    border-right: 1px solid #bcbcbc;
+    border-left: 1px solid #bcbcbc;
+}
+
+#informatie .container article i {
+    font-size: 25px;
+    padding: 0 20px 20px 20px;
+    color: #495aff;
+}
+
+#informatie .container article p {
+    text-align: center;
+    padding: 0 20px;
+}
+
+#informatie .container article a {
+    color: #000;
+    text-decoration: none;
+    transition: ease-in-out .3s;
+    text-align: center;
+}
+
+#informatie .container article a:hover {
+    color: #4b74ff;
+    transition: ease-in-out .3s;
+}
+
+/* onder */
+#onder {
+    width: 100%;
+}
+
+#onder:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* formulier */
+#formulier {
+    width: 50%;
+    float: left;
+}
+
+#formulier:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#formulier h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+#formulier .container #linksboven {
+    width: calc(50% - 20px);
+    display: inline-block;
+    margin-right: 20px;
+    float: left;
+}
+
+#formulier .container #rechtsboven {
+    width: calc(50% - 20px);
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#formulier .container input, #formulier .container textarea {
+    width: 100%;
+    padding: 10px;
+    background: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    max-width: 100%;
+    min-width: 100%;
     margin-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+#formulier .container input.button {
+    background: #495aff;
+    display: block;
+    transition: ease-in-out .3s;
+}
+
+#formulier .container input.button:hover {
+    background: #2d45c7;
+    transition: ease-in-out .3s;
+}
+
+/* Openingsuren */
+#openingsuren {
+    width: 50%;
+    float: left;
+}
+
+#openingsuren .container h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+#openingsuren .container table tr td {
+    padding: 10px 5px;
+}
+
+#openingsuren .container p {
+    margin-top: 10px;
+}
+
+#openingsuren .container a {
+    color: #4b74ff;
+    text-decoration: none;
 }
 
 /* Footer */
@@ -255,40 +313,6 @@ footer p.naar-boven {
 }
 
 /* Media queries */
-
-@media screen and (max-width: 1450px) {
-    #info .container h1 {
-        padding: 0;
-        margin: 20px 0 20px 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    #info .container img {
-        padding: 0;
-        float: none;
-        width: 100%;
-        margin: 0;
-    }
-
-    #info .container p {
-        float: none;
-        width: calc(100% - 40px);
-        margin: 0;
-        padding: 20px;
-    }
-
-    #medewerkers .container h1 {
-        padding: 0;
-        margin: 20px 0 20px 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    #medewerkers .container .medewerker {
-        width: calc(100% / 2);
-    }
-}
 @media screen and (max-width: 920px) {
     .container {
         width: 100%;
@@ -328,12 +352,38 @@ footer p.naar-boven {
         height: 30vh;
     }
 
-    #info .container img {
-        border-radius: 0;
+    #informatie .container article {
+        float: none;
+        border: none;
+        position: relative;
+        width: 80%;
+        left: 10%;
     }
 
-    #medewerkers .container .medewerker {
-        width: 100%;
+    #informatie .container article:nth-child(2) {
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #bcbcbc;
+        border-bottom: 1px solid #bcbcbc;
+        position: relative;
+        width: 80%;
+        left: 10%;
+        margin: 10px 0;
+    }
+
+    #informatie .container article:nth-child(2) i {
+        margin-top: 10px;
+    }
+
+    #informatie .container article:nth-child(2) p {
+        margin-bottom: 10px;
+    }
+
+    #formulier, #openingsuren {
+        float: none;
+        width: 90%;
+        position: relative;
+        left: 5%;
     }
 
     footer .container ul {
