@@ -142,16 +142,51 @@ html, body {
     padding: 20px 5px 20px 5px;
 }
 
+/* Info */
+#info {
+    width: 100%;
+}
+
+#info:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#info .container h1 {
+    padding: 20px 0 20px 20px;
+    font-size: 2em;
+}
+
+#info .container img {
+    margin-left: 20px;
+    float: left;
+    width: calc(40% - 20px);
+    border-radius: 5px;
+}
+
+#info .container p {
+    margin: 20px 20px 20px 20px;
+    float: right;
+    width: calc(60% - 80px);
+}
+
 /* Medewerkers */
 #medewerkers {
     width: 100%;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #medewerkers:after {
     content: "";
     clear: both;
     display: block;
+}
+
+#medewerkers h1 {
+    font-size: 2em;
+    margin: 20px 0 20px 20px;
 }
 
 #medewerkers .container .medewerker {
@@ -222,6 +257,34 @@ footer p.naar-boven {
 /* Media queries */
 
 @media screen and (max-width: 1450px) {
+    #info .container h1 {
+        padding: 0;
+        margin: 20px 0 20px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    #info .container img {
+        padding: 0;
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    #info .container p {
+        float: none;
+        width: calc(100% - 40px);
+        margin: 0;
+        padding: 20px;
+    }
+
+    #medewerkers .container h1 {
+        padding: 0;
+        margin: 20px 0 20px 0;
+        text-align: center;
+        width: 100%;
+    }
+
     #medewerkers .container .medewerker {
         width: calc(100% / 2);
     }
@@ -259,6 +322,14 @@ footer p.naar-boven {
 
     #nav-bar a#dropdownButton:hover {
         border-bottom: 3px solid #393939;
+    }
+
+    #heading {
+        height: 30vh;
+    }
+
+    #info .container img {
+        border-radius: 0;
     }
 
     #medewerkers .container .medewerker {
