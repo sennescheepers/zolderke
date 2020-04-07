@@ -99,59 +99,61 @@ html, body {
     text-align: center;
 }
 
-/* heading */
+/* Heading */
 #heading {
     width: 100%;
     height: 60vh;
     overflow: hidden;
-    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%), url("../assets/bg.jpg");
+    background-image: linear-gradient(0deg, rgba(0,0,0,.8) 0%, rgba(255,255,255,0) 100%), url("../assets/nieuws.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     -webkit-box-shadow: 0px 1px 10px 0px rgba(54,54,54,0.6);
     -moz-box-shadow: 0px 1px 10px 0px rgba(54,54,54,0.6);
     box-shadow: 0px 1px 10px 0px rgba(54,54,54,0.6);
-}
-
-#heading article {
     position: relative;
-    width: 50%;
-    height: 60%;
-    top: 20%;
-    left: 25%;
-    color: #fff;
 }
 
-#heading article h1 {
-    font-size: 2em;
+#heading .tekst {
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+    color: #fff;
     font-family: 'Varela Round', sans-serif;
 }
 
-#heading .button {
-    margin: 50px 0;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+#heading .tekst h1 {
+    font-size: 4em;
 }
 
-/* artikels */
-#mid {
+#heading .tekst a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 10px 20px 0;
+    transition: ease-in-out .3s;
+}
+
+#heading .tekst a:hover {
+    color: #4b74ff;
+    transition: ease-in-out .3s;
+}
+
+#heading .tekst span {
+    padding: 20px 5px 20px 5px;
+}
+
+/* Nieuws */
+#nieuws {
     width: 100%;
-    margin-top: 10px;
 }
 
-#mid:after {
-    content:"";
-    clear:both;
-    display:block;
+#nieuws:after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
-#mid .container h1 {
-    padding: 20px 0 20px 5px;
-    font-size: 2em;
-}
-
-
-#mid .container .artikel {
+#nieuws .container .artikel {
     width: calc(25% - 10px);
     margin: 5px;
     background: #dcdcdc;
@@ -163,39 +165,26 @@ html, body {
     box-shadow: 1px 1px 10px 0px rgba(54,54,54,0.6);
 }
 
-#mid .container .artikel img {
+#nieuws .container .artikel img {
     width: 100%;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     transition: ease-in-out .5s;
 }
 
-#mid .container .artikel img:hover {
+#nieuws .container .artikel img:hover {
     transform: scale(1.1);
     opacity: .8;
     transition: ease-in-out .5s;
 }
 
-#mid .container .artikel span {
+#nieuws .container .artikel span {
     padding-left: 15px;
 }
 
-#mid .container .artikel p {
-    padding: 10px 15px 0 15px;
-    height: 100px;
-    overflow: hidden;
-}
-
-#after-mid .button {
-    color: #4b74ff;
-    position: relative;
-    margin: 30px 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-#after-mid .button:hover {
-    color: #fff;
+#nieuws .container .artikel p {
+    padding: 10px 15px 15px 15px;
+    height: 200px;
 }
 
 /* Footer */
@@ -232,13 +221,11 @@ footer p.naar-boven {
 }
 
 /* Media queries */
-
 @media screen and (max-width: 1100px) {
-    #mid .container .artikel {
+    #nieuws .container .artikel {
         width: calc(50% - 10px);
     }
 }
-
 
 @media screen and (max-width: 920px) {
     .container {
@@ -267,32 +254,24 @@ footer p.naar-boven {
     }
 
     #nav-bar.unfolded a#dropdownButton {
-        border-bottom: 3px solid #4b74ff;
-    }
-
-    #nav-bar.unfolded a#dropdownButton:hover {
-        border-bottom: 3px solid #4b74ff;
+        border-bottom: none;
+        margin-bottom: 3px;
     }
 
     #nav-bar a#dropdownButton:hover {
         border-bottom: 3px solid #393939;
     }
 
-    #heading article {
-        width: 90%;
-        height: 80%;
-        top: 10%;
-        left: 5%;
+    #heading {
+        height: 30vh;
     }
 
-    #mid .container h1 {
-        width: 100%;
-        padding: 20px 0;
-        text-align: center;
-    }
-
-    #mid .container .artikel {
+    #nieuws .container .artikel {
         width: calc(100% - 10px);
+    }
+
+    #nieuws .container .artikel p {
+        height: auto;
     }
 
     footer .container ul {
