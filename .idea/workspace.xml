@@ -4,8 +4,13 @@
     <list default="true" id="21bed033-007c-44b8-b048-b2952ca70ad2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/nieuws.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nieuws.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/overons.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/overons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nieuws.html" beforeDir="false" afterPath="$PROJECT_DIR$/nieuws.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/overons.html" beforeDir="false" afterPath="$PROJECT_DIR$/overons.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +73,8 @@
       <workItem from="1586191099282" duration="274000" />
       <workItem from="1586244949606" duration="15328000" />
       <workItem from="1586273296388" duration="2515000" />
-      <workItem from="1586281356703" duration="2357000" />
+      <workItem from="1586281356703" duration="3269000" />
+      <workItem from="1586333559081" duration="3101000" />
     </task>
     <servers />
   </component>

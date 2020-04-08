@@ -275,7 +275,7 @@ footer p.naar-boven {
     }
 
     footer .container ul {
-        display: block;
+        width: 100%;
         padding: 0;
         margin: 0;
     }

@@ -4,13 +4,14 @@ function handleLoad() {
 }
 
 function handleNavbar() {
-    let x = document.getElementById("nav-bar");
-    if (x.className === "nav-bar") {
-        console.log("huts");
-        x.className += " unfolded";
+    let nav = document.getElementById("nav-bar");
+    let buttonIcon = document.getElementById("dropDownButtonIcon");
+    if (nav.className === "nav-bar") {
+        nav.className += " unfolded";
+        buttonIcon.className = "fa fa-times";
     } else {
-        console.log("weg");
-        x.className = "nav-bar";
+        nav.className = "nav-bar";
+        buttonIcon.className = "fa fa-bars";
     }
 }
 

@@ -285,6 +285,11 @@ footer p.naar-boven {
         left: 5%;
     }
 
+    #heading article h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
     #mid .container h1 {
         width: 100%;
         padding: 20px 0;
@@ -296,7 +301,7 @@ footer p.naar-boven {
     }
 
     footer .container ul {
-        display: block;
+        width: 100%;
         padding: 0;
         margin: 0;
     }
