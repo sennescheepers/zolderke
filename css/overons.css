@@ -22,7 +22,7 @@ html, body {
 
 .button {
     display: inline-block;
-    padding: 15px 20px;
+    padding: 10px 20px;
     background: rgba(0,0,0,0);
     border: 3px solid #4b74ff;
     border-radius: 27px;
@@ -340,6 +340,10 @@ footer p.naar-boven {
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+
+    footer .container ul:first-child {
+        padding-top: 10px;
     }
 
     footer .container ul li {

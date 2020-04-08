@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="21bed033-007c-44b8-b048-b2952ca70ad2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ACPythonDocumentation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/kalender.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boetseren.html" beforeDir="false" afterPath="$PROJECT_DIR$/boetseren.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/boetseren.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/boetseren.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/nieuws.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nieuws.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/overons.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/overons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nieuws.html" beforeDir="false" afterPath="$PROJECT_DIR$/nieuws.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/overons.html" beforeDir="false" afterPath="$PROJECT_DIR$/overons.html" afterDir="false" />
     </list>
@@ -74,7 +76,8 @@
       <workItem from="1586244949606" duration="15328000" />
       <workItem from="1586273296388" duration="2515000" />
       <workItem from="1586281356703" duration="3269000" />
-      <workItem from="1586333559081" duration="3101000" />
+      <workItem from="1586333559081" duration="3358000" />
+      <workItem from="1586343120639" duration="2785000" />
     </task>
     <servers />
   </component>
@@ -82,6 +85,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="215" width="800" height="679" key="#Images" timestamp="1586344659746">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="800" height="679" key="#Images/0.27.1920.1053@0.27.1920.1053" timestamp="1586344659746" />
     <state x="693" y="302" width="524" height="505" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586115350440">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

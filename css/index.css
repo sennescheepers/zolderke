@@ -22,7 +22,7 @@ html, body {
 
 .button {
     display: inline-block;
-    padding: 15px 20px;
+    padding: 10px 20px;
     background: rgba(0,0,0,0);
     border: 3px solid #4b74ff;
     border-radius: 27px;
@@ -127,7 +127,7 @@ html, body {
 }
 
 #heading .button {
-    margin: 50px 0;
+    margin: 50px 0 0 0;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -280,8 +280,9 @@ footer p.naar-boven {
 
     #heading article {
         width: 90%;
-        height: 80%;
-        top: 10%;
+        height: auto;
+        top: 50%;
+        transform: translateY(-50%);
         left: 5%;
     }
 
@@ -304,6 +305,10 @@ footer p.naar-boven {
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+
+    footer .container ul:first-child {
+        padding-top: 10px;
     }
 
     footer .container ul li {

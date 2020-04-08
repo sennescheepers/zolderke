@@ -22,7 +22,7 @@ html, body {
 
 .button {
     display: inline-block;
-    padding: 15px 20px;
+    padding: 10px 20px;
     background: rgba(0,0,0,0);
     border: 3px solid #4b74ff;
     border-radius: 27px;
@@ -104,7 +104,7 @@ html, body {
     width: 100%;
     height: 60vh;
     overflow: hidden;
-    background-image: linear-gradient(0deg, rgba(0,0,0,.8) 0%, rgba(255,255,255,0) 100%), url("../assets/contact.jpg");
+    background-image: linear-gradient(0deg, rgba(0,0,0,.8) 0%, rgba(255,255,255,0) 100%), url("../assets/boetseren.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -142,10 +142,29 @@ html, body {
     padding: 20px 5px 20px 5px;
 }
 
-/* informatie */
-#informatie {
-    margin: 20px 0;
+/* Midden */
+.midden {
     width: 100%;
+    margin-top: 10px;
+}
+
+.midden:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.midden .container img {
+    width: calc(30% - 40px);
+    float: left;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.midden .container p {
+    width: calc(70% - 40px);
+    padding: 20px;
+    float: left;
 }
 
 /* Footer */
@@ -182,6 +201,13 @@ footer p.naar-boven {
 }
 
 /* Media queries */
+@media screen and (max-width: 1100px) {
+    .midden .container img, .midden .container p {
+        float: none;
+        width: calc(100% - 40px);
+    }
+}
+
 @media screen and (max-width: 920px) {
     .container {
         width: 100%;
@@ -225,6 +251,10 @@ footer p.naar-boven {
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+
+    footer .container ul:first-child {
+        padding-top: 10px;
     }
 
     footer .container ul li {
