@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 .slideInTop {
     animation-name: slideInTop;
     animation-duration: .5s;
