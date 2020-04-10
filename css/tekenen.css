@@ -262,6 +262,11 @@ footer p.naar-boven {
         float: none;
         width: calc(100% - 40px);
     }
+
+    .midden .container .slideshow-container {
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (max-width: 920px) {

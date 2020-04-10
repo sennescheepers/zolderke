@@ -1,0 +1,29 @@
+.slideInTop {
+    animation-name: slideInTop;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes slideInTop {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.slideInRight {
+    animation-name: slideInRight;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
