@@ -161,6 +161,11 @@ html, body {
     -webkit-box-shadow: 1px 1px 10px 0px rgba(54,54,54,0.6);
     -moz-box-shadow: 1px 1px 10px 0px rgba(54,54,54,0.6);
     box-shadow: 1px 1px 10px 0px rgba(54,54,54,0.6);
+    transition: .5s ease-in-out;
+}
+
+#mid .container .artikel:hover {
+    transform: scale(1.05);
 }
 
 #mid .container .artikel img {
@@ -171,9 +176,7 @@ html, body {
 }
 
 #mid .container .artikel img:hover {
-    transform: scale(1.1);
     opacity: .8;
-    transition: ease-in-out .5s;
 }
 
 #mid .container .artikel span {
